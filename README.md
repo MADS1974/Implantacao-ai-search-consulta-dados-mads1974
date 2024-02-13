@@ -46,7 +46,7 @@ Criar Recursos do Azure:
 Criar um recurso do Azure Cognitive Search, Serviços de IA do Azure e uma conta de armazenamento do Azure.
 Carregar Documentos:
 
-Baixar e extrair as avaliações de café.
+Baixar e extrair as avaliações.
 Carregar os arquivos de avaliações na conta de armazenamento do Azure.
 Indexar Documentos:
 
@@ -57,13 +57,13 @@ Consultar o Índice:
 Utilizar o Search Explorer no portal do Azure para testar consultas ao índice.
 Escrever consultas para recuperar documentos específicos ou filtrar por critérios, como localização ou sentimento.
 Resultados
-Com a configuração do índice do Azure Cognitive Search, a Fourth Coffee terá uma ferramenta poderosa para explorar e entender as experiências dos clientes através das avaliações. Além disso, o armazenamento de conhecimento permitirá uma análise mais aprofundada dos dados enriquecidos pela IA, fornecendo insights valiosos para aprimorar os serviços e produtos oferecidos pela empresa.
+Com a configuração do índice do Azure Cognitive Search, terá disponível uma ferramenta poderosa para explorar e entender as experiências dos clientes através das avaliações. Além disso, o armazenamento de conhecimento permitirá uma análise mais aprofundada dos dados enriquecidos pela IA, fornecendo insights valiosos para aprimorar os serviços e produtos oferecidos pela empresa.
 
 Este laboratório demonstra como a combinação de Azure Cognitive Search e Serviços de IA do Azure pode agregar valor significativo a empresas que desejam extrair insights de grandes volumes de dados não estruturados, como avaliações de clientes.
 
 ## **Tecnologias Utilizadas**
 
-Este projeto foi construído utilizando Azure Machine Learning
+Este projeto foi construído utilizando Azure Machine Learning/Azure Cognitive Search
 
 ### Agradecimentos
 
