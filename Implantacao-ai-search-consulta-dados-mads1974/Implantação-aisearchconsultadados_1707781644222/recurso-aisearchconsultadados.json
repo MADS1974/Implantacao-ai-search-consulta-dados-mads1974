@@ -1,0 +1,62 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/309d35d1-1150-4e15-b002-65821e4b52ee/resourceGroups/LAB-MADS1/providers/Microsoft.Storage/storageAccounts/aisearchconsultadados",
+    "name": "aisearchconsultadados",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2024-02-12T23:47:56.5094287Z",
+            "key2": "2024-02-12T23:47:56.5094287Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": true,
+        "allowSharedKeyAccess": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-02-12T23:47:56.5250525Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2024-02-12T23:47:56.5250525Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2024-02-12T23:47:56.3531771Z",
+        "primaryEndpoints": {
+            "dfs": "https://aisearchconsultadados.dfs.core.windows.net/",
+            "web": "https://aisearchconsultadados.z13.web.core.windows.net/",
+            "blob": "https://aisearchconsultadados.blob.core.windows.net/",
+            "queue": "https://aisearchconsultadados.queue.core.windows.net/",
+            "table": "https://aisearchconsultadados.table.core.windows.net/",
+            "file": "https://aisearchconsultadados.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available"
+    }
+}

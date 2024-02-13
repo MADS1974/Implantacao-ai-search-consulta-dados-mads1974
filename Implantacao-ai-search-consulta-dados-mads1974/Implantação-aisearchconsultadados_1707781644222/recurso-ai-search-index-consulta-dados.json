@@ -1,0 +1,25 @@
+{
+    "id": "/subscriptions/309d35d1-1150-4e15-b002-65821e4b52ee/resourceGroups/LAB-MADS1/providers/Microsoft.Search/searchServices/ai-search-index-consulta-dados",
+    "name": "ai-search-index-consulta-dados",
+    "type": "Microsoft.Search/searchServices",
+    "location": "East US",
+    "tags": {},
+    "properties": {
+        "replicaCount": 1,
+        "partitionCount": 1,
+        "status": "running",
+        "statusDetails": "",
+        "provisioningState": "succeeded",
+        "hostingMode": "Default",
+        "publicNetworkAccess": "Enabled",
+        "networkRuleSet": {
+            "ipRules": [],
+            "bypass": "None"
+        },
+        "privateEndpointConnections": [],
+        "sharedPrivateLinkResources": []
+    },
+    "sku": {
+        "name": "basic"
+    }
+}
